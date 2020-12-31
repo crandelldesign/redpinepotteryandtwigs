@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:		#999966;
+	}
+
+#top {
+	margin-bottom:			10px;
+	margin-left:			auto;
+	margin-right:			auto;
+	text-align:				center;
+	}
+	
+#top p {
+	margin-top:				0;
+	margin-bottom:			0;
+	}
+	
+#page {
+	width:					950px;
+	margin-left:			auto;
+	margin-right:			auto;
+	border:					2px #FFFFFF solid;
+	background-color:		#FFFFFF;
+	background-image:		url(../images/layout1-bg.gif);
+	background-repeat:		repeat-y;
+	}
+	
+#menu {
+	background-color:		#a4c2c2;
+	border-bottom:			2px #FFFFFF solid;
+	padding-top:			10px;
+	height:					40px;
+	text-align:				center;
+	}
+	
+#menu ul {
+	padding:				0;
+	margin:					0;
+	}
+	
+#menu li {
+	display:				inline;
+	margin-left:			30px;
+	margin-right:			30px;
+	color:					#FFFFFF;
+	font-weight:			bold;
+	font-size:				25px;
+	font-family:			Arial, Helvetica, sans-serif;
+	}
+	
+#menu a {
+	color:					#FFFFFF;
+	text-decoration:		none;
+	}
+	
+#menu a:hover {
+	text-decoration:		underline;
+	}
+	
+#left-side {
+	width:					230px;
+	float:					left;
+	}
+	
+#chair {
+	margin-top:				0;
+	margin-bottom:			0;
+	}
+	
+#address {
+	margin-top:				0;
+	margin-bottom:			10px;
+	border-top:				2px #FFFFFF solid;
+	padding-top:			10px;
+	padding-left:			10px;
+	}
+	
+#address p {
+	margin-top:				0px;
+	margin-bottom:			3px;
+	color:					#FFFFFF;
+	font-family:			Arial, Helvetica, sans-serif;
+	font-weight:			bold;
+	}
+	
+#right-side {
+	width:					700px;
+	float:					right;
+	margin-right:			10px;
+	margin-top:				10px;
+	font-family:			Arial, Helvetica, sans-serif;
+	}
+	
+#right-side h1 {
+	color:					#362f2d;
+	font-size:				25px;
+	margin-top:				0;
+	margin-bottom:			8px;
+	}
+	
+#div-clear, .div-clear {
+	clear:					both;
+	}
+	
+#footer {
+	width:					950px;
+	margin-left:			auto;
+	margin-right:			auto;
+	margin-top:				10px;
+	font-family:			Arial, Helvetica, sans-serif;
+	text-align:				center;
+	color:					#000000;
+	}
+	
+#footer p {
+	margin-top:				0;
+	margin-bottom:			2px;
+	font-size:				12px;
+	}
+	
+#footer a {
+	color:					#a4c2c2;
+	text-decoration:		none;
+	}
+	
+#footer a:hover {
+	text-decoration:		underline;
+	}

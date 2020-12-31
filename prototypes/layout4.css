@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:		#999966;
+	padding:				0;
+	margin:					0;
+	}
+
+#top {
+	width:					950px;
+	margin-left:			auto;
+	margin-right:			auto;
+	overflow:				hidden;
+	}
+
+#top-left {
+	margin-top:				10px;
+	margin-bottom:			10px;
+	margin-left:			auto;
+	margin-right:			auto;
+	float:					left;
+	width:					600px;
+	}
+	
+#top p {
+	margin-top:				0;
+	margin-bottom:			0;
+	}
+
+#top-right {
+	background-image:		url(../images/layout4-menu.gif);
+	margin-top:				30px;
+	padding-top:			5px;
+	height:					25px;
+	width:					300px;
+	text-align:				center;
+	float:					right;
+	}
+	
+#top-right ul {
+	padding:				0;
+	margin:					0;
+	}
+	
+#top-right li {
+	display:				inline;
+	margin-left:			5px;
+	margin-right:			5px;
+	color:					#FFFFFF;
+	font-weight:			bold;
+	font-size:				20px;
+	font-family:			Arial, Helvetica, sans-serif;
+	}
+	
+#top-right a {
+	color:					#FFFFFF;
+	text-decoration:		none;
+	}
+	
+#top-right a:hover {
+	text-decoration:		underline;
+	}
+	
+#mid {
+	background-image:		url(../images/layout4-mig-bg.jpg);
+	background-repeat:		no-repeat;
+	width:					725px;
+	height:					225px;
+	margin-left:			auto;
+	margin-right:			auto;
+	padding-top:			20px;
+	padding-left:			225px;
+	font-family:			Arial, Helvetica, sans-serif;
+	margin-bottom:			10px;
+	}
+	
+#mid h1 {
+	color:					#FFFFFF;
+	font-size:				25px;
+	margin-top:				0px;
+	margin-bottom:			60px;
+	font-weight:			normal;
+	}
+	
+#mid p {
+	font-size:				20px;
+	margin-top:				0;
+	margin-bottom:			2px;
+	}
+	
+#main-top {
+	background-image:		url(../images/layout4-main-top.gif);
+	width:					950px;
+	height:					10px;
+	margin-left:			auto;
+	margin-right:			auto;
+	}
+	
+#main-mid {
+	background-image:		url(../images/layout4-main-mid.gif);
+	background-repeat:		repeat-y;
+	width:					950px;
+	margin-left:			auto;
+	margin-right:			auto;
+	overflow:				hidden;
+	}
+	
+#content {
+	margin:					15px;
+	font-family:			Arial, Helvetica, sans-serif;
+	}
+	
+#content p {
+	margin-top:				0;
+	margin-bottom:			8px;
+	}
+	
+#main-bottom {
+	background-image:		url(../images/layout4-main-bottom.gif);
+	width:					950px;
+	height:					10px;
+	margin-left:			auto;
+	margin-right:			auto;
+	}
+	
+#footer {
+	width:					950px;
+	margin-left:			auto;
+	margin-right:			auto;
+	margin-top:				10px;
+	font-family:			Arial, Helvetica, sans-serif;
+	text-align:				center;
+	color:					#000000;
+	}
+	
+#footer p {
+	margin-top:				0;
+	margin-bottom:			2px;
+	font-size:				12px;
+	}
+	
+#footer a {
+	color:					#a4c2c2;
+	text-decoration:		none;
+	}
+	
+#footer a:hover {
+	text-decoration:		underline;
+	}
+	
+#div-clear, .div-clear {
+	clear:					both;
+	}
